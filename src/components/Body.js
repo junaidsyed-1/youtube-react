@@ -3,7 +3,7 @@ import Main from './Main'
 
 const Body = () => {
     return (
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-10 pt-3">
             <Sidebar />
             <Main />
         </div>

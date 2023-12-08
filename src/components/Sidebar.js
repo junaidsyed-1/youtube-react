@@ -3,12 +3,12 @@ import { useSelector } from 'react-redux'
 
 const Sidebar = () => {
 
-    const toggleMenu = useSelector(store => store.app.isMenuOpen)
+    let toggleMenu = useSelector(store => store.app.isMenuOpen)
 
     if (!toggleMenu) return null;
 
     return (
-        <div className="w-48">
+        <div className={`col-span-1 px-4 sm:${toggleMenu = false}`}>
             <div>
                 <h1 className='font-bold pt-3'>You</h1>
                 <ul className='leading-8'>

@@ -14,7 +14,7 @@ const Header = () => {
     }
 
     return (
-        <div className="grid grid-flow-col p-5 shadow-lg">
+        <div className="grid grid-flow-col p-2 px-4 shadow-lg">
 
             <div className="flex col-span-1 items-center">
                 <MenuIcon
@@ -26,7 +26,7 @@ const Header = () => {
             </div>
 
             <div className="col-span-10 flex items-center justify-center ">
-                <input className='w-1/2 border border-gray-400  py-2 px-4  rounded-l-full' type="text" />
+                <input placeholder='Search' className='w-1/2 border border-gray-400  py-2 px-4  rounded-l-full' type="text" />
                 <div className='border border-gray-400 py-2 px-4 rounded-r-full cursor-pointer'><SearchIcon /></div>
             </div>
 

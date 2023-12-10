@@ -20,9 +20,11 @@ const Header = () => {
                 <MenuIcon
                     onClick={() => toggleMenuHandler()}
                     className="cursor-pointer" />
-                <img
-                    className='hidden md:block w-28 ml-4'
-                    src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="logo" />
+                <a href='/'>
+                    <img
+                        className='hidden md:block w-28 ml-4 cursor-pointer'
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="logo" />
+                </a>
             </div>
 
             <div className="col-span-10 flex items-center justify-center ">

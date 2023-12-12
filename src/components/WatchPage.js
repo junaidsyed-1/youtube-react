@@ -16,18 +16,16 @@ const WatchPage = () => {
 
 
     return (
-        <div className=" col-span-11">
 
-            <iframe
-                className="w-72 h-96 lg:w-[1200px] lg:h-[700px]"
-                width="1200"
-                height="700"
-                src={"https://www.youtube.com/embed/" + params.get('v')}
-                title="OFFICIAL!! TWISTZZ JOINS TEAM LIQUID!! - TWISTZZ HIGHLIGHTS | CS2 / CSGO"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen></iframe>
-        </div>
+        <iframe
+            className="w-72 h-96 lg:w-[1200px] lg:h-[700px]"
+            width="1200"
+            height="700"
+            src={"https://www.youtube.com/embed/" + params.get('v')}
+            title="1"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen></iframe>
     )
 }
 

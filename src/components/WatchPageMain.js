@@ -4,7 +4,7 @@ import CommentsContainer from './CommentsContainer'
 
 const WatchPageMain = () => {
     return (
-        <div className='pl-5'>
+        <div className='pl-5 w-full'>
             <WatchPage />
             <CommentsContainer />
         </div>

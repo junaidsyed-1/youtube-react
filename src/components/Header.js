@@ -34,7 +34,7 @@ const Header = () => {
 
 
     const getSearchResult = async () => {
-        console.log("Api Call - " + searchQuery)
+        // console.log("Api Call - " + searchQuery)
         const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
         const json = await data.json();
         setSearchResult(json[1])

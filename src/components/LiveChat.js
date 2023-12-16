@@ -16,7 +16,7 @@ const LiveChat = () => {
                 name: generateRandomName(),
                 message: generateRandomComments()
             }))
-        }, 1200)
+        }, 1300)
 
         return () => {
             clearInterval(timer)

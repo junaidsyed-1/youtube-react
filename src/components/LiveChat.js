@@ -25,7 +25,7 @@ const LiveChat = () => {
     }, []);
 
     return (
-        <div className="box-border w-full">
+        <div className="box-border w-full ">
             <div className="py-1 border bg-gray-100 mx-4 rounded-t-lg">
                 <h1 className="text-center text-lg font-bold block">Live Chat</h1>
             </div>

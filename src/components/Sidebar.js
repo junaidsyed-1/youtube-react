@@ -9,7 +9,7 @@ const Sidebar = () => {
     if (!toggleMenu) return null;
 
     return (
-        <div className={`px-4 sm:${toggleMenu = false}`}>
+        <div className={`px-4 sm:${toggleMenu = false} fixed bg-white h-screen lg:static`}>
             <div>
                 <div className="pt-3">
                     <Link to='/'><h3 className="font-semibold py-1">Home</h3></Link>

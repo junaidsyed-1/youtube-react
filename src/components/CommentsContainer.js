@@ -75,7 +75,7 @@ const commentsData = [
 const CommentsContainer = () => {
     return (
         <>
-            <div className="text-2xl font-bold pt-3 box-border">
+            <div className="text-2xl font-bold pt-3 box-border mx-2">
                 Comments :
             </div>
             {/* <Comment data={commentsData[0]} /> */}

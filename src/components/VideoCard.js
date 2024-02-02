@@ -24,7 +24,6 @@ const VideoCard = ({ info }) => {
             <h2 className="px-2 font-bold">{title.length >= 51 ? title.slice(0, 51) + '...' : title}</h2>
             <h4 className="px-2 text-sm">{channelTitle}</h4>
             <span className="px-2 text-sm">{formatViews(statistics.viewCount)} views</span>
-
         </div>
     )
 };

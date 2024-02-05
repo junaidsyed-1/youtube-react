@@ -56,6 +56,6 @@ const LiveChat = () => {
             </div>
         </div>
     )
-}
+};
 
 export default LiveChat

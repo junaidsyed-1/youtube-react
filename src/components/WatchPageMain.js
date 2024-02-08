@@ -11,4 +11,4 @@ const WatchPageMain = () => {
     )
 }
 
-export default WatchPageMain
+export default WatchPageMain;
